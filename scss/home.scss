@@ -1,0 +1,120 @@
+.home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 820px;
+    background: url(../images/home/ellipse.svg) no-repeat center;
+
+    position: relative;
+    z-index: 1;
+
+    &__inner {
+        display: flex;
+        position: relative;
+    }
+
+    &__content {
+        margin-top: 236px;
+    }
+
+    &__title {
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(30px, 5vw, 45px);
+        font-weight: 400;
+        color: #1b1a17;
+        margin-bottom: 39px;
+        position: relative;
+    
+        &::before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            border-bottom: 1px solid #8b8371;
+    
+            position: absolute;
+            top: 28px;
+            left: -70px;
+            z-index: 1;
+        }
+    
+        span {
+            font-weight: 400;
+            font-size: clamp(25px, 5vw, 32px);
+            line-height: 40px;
+            color: #1b1a17;
+        }
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        color: #1b1a17d1;
+        max-width: 260px;
+        margin-bottom: 64px;
+    }
+
+    &__button {
+        background-color: #444240;
+    }
+}
+
+.main-watch {
+    width: 100%;
+    height: 822px;
+
+    position: absolute;
+    top: 0;
+    right: -195px;
+    z-index: 1;
+}
+
+.price-main__watch {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #1B1A17;
+
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    z-index: -1;
+
+    nobr::after {
+        content: '';
+        display: inline-block;
+        vertical-align: super;
+        
+        width: 50px;
+        border-bottom: 1px solid #8b8371;
+        margin-left: 15px;
+    }
+}
+
+.diameter-main__watch {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1B1A17;
+
+    position: absolute;
+    top: 665px;
+    right: 120px;
+
+    nobr::before {
+        content: '';
+        display: inline-block;
+        vertical-align: super;
+
+        width: 50px;
+        border-bottom: 1px solid #8b8371;
+        margin-right: 15px;
+    }
+
+}

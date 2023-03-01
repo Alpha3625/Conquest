@@ -1,0 +1,39 @@
+.news {
+    padding: 52px 0 90px;
+}
+
+.news__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.news__title {
+    margin-bottom: 40px;
+}
+
+.news__text {
+    max-width: 340px;
+    margin-bottom: 118px;
+}
+
+.news__icons {
+    display: flex;
+    align-items: center;
+
+    a {
+        margin-right: 18px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.news__img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
