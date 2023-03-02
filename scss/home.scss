@@ -75,7 +75,6 @@
     font-family: 'Prata', serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
     text-align: right;
     color: #1B1A17;
 
@@ -99,13 +98,12 @@
     font-family: 'Prata', serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
     text-align: center;
     color: #1B1A17;
 
     position: absolute;
     top: 665px;
-    right: 120px;
+    right: 100px;
 
     nobr::before {
         content: '';
