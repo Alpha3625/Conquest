@@ -2,4 +2,6 @@
 
 Первый Проект Conquest:
 
+`JS`
+
 https://artyomxxx.github.io/Conquest/

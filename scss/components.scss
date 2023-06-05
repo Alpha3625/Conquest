@@ -13,20 +13,16 @@
 .button {
     display: inline-block;
     padding: 25px;
-
     width: 205px;
     height: 64px;
-
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.05em;
-
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
     transition: .1s linear;
-
     color: #ffffff;
 
     &:hover {

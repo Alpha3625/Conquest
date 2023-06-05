@@ -15,11 +15,6 @@
         flex-direction: column;
     }
 
-    .products__inner {
-        justify-content: center;
-        flex-direction: column;
-    }
-
     .footer__inner {
         text-align: center;
     }
@@ -47,19 +42,20 @@
 
     .home {
         min-height: 600px;
-    }
-    
-    .home__content {
-        margin-top: 170px;
+
+        &__content {
+            margin-top: 170px;
+        }
     }
 
     .main-watch {
-        top: -140px;
+        height: 645px;
+        top: -20px;
     }
 
     .section-title {
         text-align: center;
-    }
+    }   
 
     .about__content {
         text-align: center;
@@ -95,10 +91,10 @@
 
     .home {
         min-height: 400px;
-    }
 
-    .home__content {
-        margin-top: 50px;
+        &__content {
+            margin-top: 50px;
+        }
     }
 
     .main-watch {

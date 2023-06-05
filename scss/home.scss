@@ -1,23 +1,21 @@
 .home {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     width: 100%;
     height: 100%;
     min-height: 820px;
     background: url(../images/home/ellipse.svg) no-repeat center;
 
-    position: relative;
-    z-index: 1;
-
     &__inner {
         display: flex;
         position: relative;
+        top: 0;
+        z-index: 1;
     }
-
     &__content {
         margin-top: 236px;
     }
-
     &__title {
         font-family: 'Playfair Display', serif;
         font-size: clamp(30px, 5vw, 45px);
@@ -32,21 +30,18 @@
             vertical-align: middle;
             width: 50px;
             border-bottom: 1px solid #8b8371;
-    
             position: absolute;
             top: 28px;
             left: -70px;
             z-index: 1;
         }
-    
-        span {
+        &>span {
             font-weight: 400;
             font-size: clamp(25px, 5vw, 32px);
             line-height: 40px;
             color: #1b1a17;
         }
     }
-
     &__text {
         font-weight: 300;
         font-size: 14px;
@@ -55,7 +50,6 @@
         max-width: 260px;
         margin-bottom: 64px;
     }
-
     &__button {
         background-color: #444240;
     }
@@ -64,7 +58,6 @@
 .main-watch {
     width: 100%;
     height: 822px;
-
     position: absolute;
     top: 0;
     right: -195px;
@@ -77,17 +70,15 @@
     font-size: 16px;
     text-align: right;
     color: #1B1A17;
-
     position: absolute;
     top: 150px;
     left: 500px;
     z-index: -1;
 
-    nobr::after {
+    &>nobr::after {
         content: '';
         display: inline-block;
         vertical-align: super;
-        
         width: 50px;
         border-bottom: 1px solid #8b8371;
         margin-left: 15px;
@@ -100,16 +91,14 @@
     font-size: 16px;
     text-align: center;
     color: #1B1A17;
-
     position: absolute;
     top: 665px;
     right: 100px;
 
-    nobr::before {
+    &>nobr::before {
         content: '';
         display: inline-block;
         vertical-align: super;
-
         width: 50px;
         border-bottom: 1px solid #8b8371;
         margin-right: 15px;

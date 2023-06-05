@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&family=Roboto&display=swap" rel="stylesheet">
@@ -19,40 +19,43 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a class="logo" href="#">
+                    <a class="header__logo" href="#conquest">
                         <img src="./icons/logo-1.svg" alt="Logo" />
                     </a>
 
-                    <div class="nav-toggle" onclick="menuActive(this)">
+                    <div class="nav-toggle" id="nav-toggle">
                         <span class="nav-toggle__item"></span>
-                     </div>
-                    <div className="menu__burger-bg fs"></div>
-                    <nav class="nav" id="myTopnav">
-                        <a class="nav__link" href="#">Каталог</a>
-                        <a class="nav__link" href="#">Акции</a>
-                        <a class="nav__link" href="#">Доставка</a>
-                        <a class="nav__link" href="#">Контакты</a>
-                    </nav>
-                    
-                    <div class="nav">
-                        <a class="nav__icon" href="#">
-                            <span class="count">1</span>
-                            <img src="./icons/loop.svg" alt="Search" />
-                        </a>
-
-                        <a class="nav__icon" href="#">
-                            <span class="count count active">1</span>
-                            <img src="./icons/heart.svg" alt="Favorites" />
-                        </a>
-
-                        <a class="nav__icon" href="#">
-                            <span class="count">1</span>
-                            <img src="./icons/basket.svg" alt="Basket" />
-                        </a>
                     </div>
+
+                    <nav class="nav">
+                        <a class="nav__link" href="#catalog">Каталог</a>
+                        <a class="nav__link" href="#stock">Акции</a>
+                        <a class="nav__link" href="#delivery">Доставка</a>
+                        <a class="nav__link" href="#contacts">Контакты</a>
+
+                        <div class="nav__icons">
+                            <a class="nav__icon" href="#">
+                                <span class="count">1</span>
+                                <img src="./icons/loop.svg" alt="Search" />
+                            </a>
+    
+                            <a class="nav__icon" href="#">
+                                <span class="count count active">1</span>
+                                <img src="./icons/heart.svg" alt="Favorites" />
+                            </a>
+    
+                            <a class="nav__icon" href="#">
+                                <span class="count">1</span>
+                                <img src="./icons/basket.svg" alt="Basket" />
+                            </a>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </header>
+
+        <div id="conquest"></div>
+        <div id="catalog"></div>
 
         <div class="home">
             <div class="container">
@@ -77,7 +80,7 @@
             </div>
         </div>
 
-        <section class="products">
+        <section class="products" id="delivery">
             <div class="container">
                 <h1 class="products__title section-title">
                     Популярные модели
@@ -116,7 +119,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="about">
             <div class="container">
                 <div class="about__inner">
@@ -142,7 +145,7 @@
             </div>
         </section>
 
-        <section class="news">
+        <section class="news" id="stock">
             <div class="container">
                 <div class="news__inner">
                     <div class="news__content">
@@ -180,11 +183,11 @@
             </div>
         </section>
 
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__item">
-                        <a href="#">
+                        <a href="#conquest">
                             <img class="footer__logo" src="./icons/logo-2.svg" alt="Logo" />
                         </a>
                         <p>8 (499) 450-47-97</p>
@@ -215,7 +218,7 @@
             </div>
         </footer>
 
-        <script src="./app.js"></script>
+        <script src="./js/scripts.js"></script>
     </div>
 </body>
 
