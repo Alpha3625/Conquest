@@ -1,0 +1,43 @@
+.quality {
+    padding: 52px 0 20px;
+    background: url(../images/qualityWatch/about-bg.svg) no-repeat right, linear-gradient(to right, #F7F5EF 0%, #F7F5EF 36%, #FDFDFB 36%, #FDFDFB 100%);
+    position: relative;
+    
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px 50px;
+    }
+    &__title {
+        margin-bottom: 38px;
+    }
+    &__text {
+        text-align: start;
+        max-width: 360px;
+        margin-bottom: 45px;
+    }
+    &__button {
+        background-color: #D4B098;
+        margin-bottom: 30px;
+    }
+}
+
+.number-quality__img {
+    padding: 20px 80px 0 0;
+    text-align: right;
+    &>.arrow {
+        display: inline-block;
+        height: 10px;
+    }
+    &>span {
+        font-family: 'Prata';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #1b1a17d1;
+        margin: 0 20px;
+    }
+}
