@@ -7,4 +7,4 @@
 ## Описание:
 Проект представляет собой Landing Page с простым дизайном. В проекте реализована адаптивная кроссбраузерная вёрстка и ряд интерактивных элементов.
 
-## Ссылка: [Посмотреть](https://ru.legacy.reactjs.org/docs/components-and-props.html)
+## Ссылка: [Посмотреть](https://artyomxxx.github.io/Conquest/)
