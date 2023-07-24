@@ -3,7 +3,6 @@
 @use './base/page-wrapper.scss';
 @use './base/container.scss';
 @use './base/components.scss';
-@use './base/media.scss';
 
 // Blocks
 @use './blocks/header.scss';
@@ -12,3 +11,4 @@
 @use './blocks/quality.scss';
 @use './blocks/news.scss';
 @use './blocks/footer.scss';
+@use './blocks/media.scss';

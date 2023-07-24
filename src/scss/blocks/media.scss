@@ -52,13 +52,22 @@
         min-height: 600px;
 
         &__content {
-            margin-top: 170px;
+            margin: 170px auto 0;
+        }
+
+        .home__title {
+            &::before {
+                display: none;
+            }
         }
     }
 
     .main-watch {
-        height: 645px;
-        top: -20px;
+        display: none;
+    }
+
+    .products {
+        padding: 50px 0;
     }
 
     .section-title {
@@ -66,7 +75,12 @@
     }   
 
     .quality__content {
+        margin: 0 auto;
         text-align: center;
+    }
+
+    .news__content {
+        margin: 0 auto;
     }
 
     .news__text {
@@ -86,6 +100,7 @@
     .footer__item {
         width: 100%;
         border-bottom: 1px solid #ffffffbf;
+        margin: 0 auto;
         padding-bottom: 30px;
 
         &:last-child {
@@ -104,13 +119,5 @@
         &__content {
             margin-top: 50px;
         }
-    }
-
-    .main-watch {
-        display: none;
-    }
-
-    .footer__inner {
-        justify-content: center;
     }
 }

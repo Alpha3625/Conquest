@@ -1,18 +1,11 @@
-# Стажировка в Hotels.ru - Первый Этап
+# Название: Conquest
+## Вид сайта: SPA
+## Проект реализован с использованием стека технологий:
 
-## Лэндинг Conquest
+[![My Skills](https://skillicons.dev/icons?i=html,sass,js,gulp)](https://skillicons.dev)
 
-`JS`
 
-**Стек технологий:**
-<!-- <img width="80" height="80" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">
-<img width="80" height="80" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg">
-<img width="80" height="80" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
-<img width="80" height="80" src="https://github.com/devicons/devicon/blob/master/icons/gulp/gulp-plain.svg"> -->
-(https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg) (https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg) (https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg) (https://github.com/devicons/devicon/blob/master/icons/gulp/gulp-plain.svg)
+## Описание:
+Проект представляет собой Landing Page с простым дизайном. В проекте реализована адаптивная кроссбраузерная вёрстка и ряд интерактивных элементов.
 
-**Описание проекта:** Проект реализован на чистом JavaScript и представляет собой
-Landing Page с простым дизайном. В проекте, помимо классической адаптивной верстки,
-реализован  и ряд других интерактивных элементов.
-
-https://artyomxxx.github.io/Conquest/
+## Ссылка: [Посмотреть](https://artyomxxx.github.io/Conquest/)

@@ -83,15 +83,6 @@ gulp.task('icons:dev', function() {
     return gulp.src('./src/icons/*.svg').pipe(gulp.dest('./build/icons/'));
 });
 
-// Fonts task
-gulp.task('fonts:dev', function() {
-    return (
-        gulp.src('./src/fonts/**/*')
-            .pipe(changed('./build/fonts/'))
-            .pipe(gulp.dest('./build/fonts/'))
-    );
-});
-
 // JS task
 gulp.task('js:dev', function() {
     return (
@@ -121,6 +112,5 @@ gulp.task('watch:dev', function() {
     gulp.watch('./src/**/*.html', gulp.parallel('html:dev'));
     gulp.watch('./src/images/**/*', gulp.parallel('images:dev'));
     gulp.watch('./src/icons/**/*', gulp.parallel('icons:dev'));
-    gulp.watch('./src/fonts/**/*', gulp.parallel('fonts:dev'));
     gulp.watch('./src/js/**/*.js', gulp.parallel('js:dev'));
 });

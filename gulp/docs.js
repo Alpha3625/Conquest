@@ -102,15 +102,6 @@ gulp.task('icons:docs', function() {
         .pipe(gulp.dest('./docs/icons/'));
 });
 
-// Fonts task
-gulp.task('fonts:docs', function() {
-    return (
-        gulp.src('./src/fonts/**/*')
-            .pipe(changed('./docs/fonts/'))
-            .pipe(gulp.dest('./docs/fonts/'))
-    );
-});
-
 // JS task
 gulp.task('js:docs', function() {
     return (
