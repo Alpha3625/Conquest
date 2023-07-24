@@ -35,9 +35,9 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-
-        &-col:first-child > img:first-child {
-            margin-bottom: 10px;
-        }
     }
+}
+
+.img-margin-bottom {
+    margin-bottom: 10px;
 }
