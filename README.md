@@ -1,5 +1,4 @@
-# Название: Conquest
-## Вид сайта: SPA
+# Conquest
 ## Реализован с использованием стека:
 
 [![My Skills](https://skillicons.dev/icons?i=html,sass,js,gulp)](https://skillicons.dev)
